@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>First app</title>
+	<style>
+
+		body {
+			background-image: url('Souvik.jpg');
+			background-size: cover;
+		}
+
+
+		form {
+			text-align: center;
+		}
+
+		input{
+			width: 50%
+		}
+
+		input[type=submit]{
+			background-color: green;
+			color: white;
+			width: 10%
+		}
+
+		select{
+			width: 50%
+		}
+
+		label{
+			font-size: 20px;
+			display: inline-block;
+			text-align: right;
+			width: 150px
+		}
+
+
+
+
+	</style>
+</head>
+
+
+<body>
+	<center><h1>Enter your details</h1></center>
+	
+	<form>
+
+		<b><label for="fname">First Name</label></b>
+		<input type="text" id="fname" name="fn", required="required", placeholder="Write your firstname here">
+		<br></br>
+
+
+		<b><label for="Gender">Gender</label></b>
+		<select id="Gender" name="gn">
+			<option value="1">Male</option>
+			<option value="2">Female</option>
+			<option value="3">Non-Binary</option>
+		</select>
+		<br></br>
+
+
+		<b><label for="submit">Click on I agree</label></b>
+		<input type="submit" id="submit" name="Submit" value="I agree">
+
+	</form>
+
+</body>
+
+</html>
